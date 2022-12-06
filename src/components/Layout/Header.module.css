@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #8a2b06;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.main-image {
+  right: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.main-image img {
+  height: auto;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  /* height: 100%; */
+
+  transform: rotateZ(deg) translateY(-4rem) translateX(-1rem);
+}
